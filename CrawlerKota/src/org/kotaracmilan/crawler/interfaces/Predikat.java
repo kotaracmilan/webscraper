@@ -12,7 +12,7 @@ package org.kotaracmilan.crawler.interfaces;
  */
 public interface Predikat {
 
-    public void work();
-    public void workOnEach();
+    public ScrapedData work();
+    public ScrapedData workOnEach();
     
 }

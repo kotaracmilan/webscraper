@@ -10,5 +10,6 @@ package org.kotaracmilan.crawler.interfaces;
  * @author Milan
  */
 public interface ScrapedData {
-    
+    public void setScrapedPair(String s1, String s2);
+    public String getData(String key);
 }
